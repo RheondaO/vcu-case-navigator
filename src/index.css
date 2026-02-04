@@ -113,15 +113,34 @@
 @layer base {
   * {
     @apply border-border;
+
+     /* Global Scrollbar Removal */
+  html, body {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
   }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
+  }
+
+     /* Target all elements and the pseudo-elements for Webkit browsers */
+  *::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
   }
 }
 
 @layer utilities {
   .financial-figure {
     @apply font-bold tabular-nums;
+
+     .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }
