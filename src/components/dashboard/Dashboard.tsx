@@ -71,8 +71,8 @@ export function Dashboard() {
         <div className="flex items-center gap-2">
           <GraduationCap className="h-6 w-6 text-primary" />
           <div>
-            <h1 className="font-bold text-lg">SFMC Advisor Case Management</h1>
-            <p className="text-xs text-muted-foreground">What-If Analysis</p>
+            <h1 className="font-bold text-lg">VCU SFMC Advisor Case Management</h1>
+            <p className="text-xs text-muted-foreground">What-If Gap Analysis</p>
           </div>
         </div>
       </div>
