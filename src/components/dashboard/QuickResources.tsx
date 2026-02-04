@@ -37,12 +37,12 @@ export function QuickResources() {
                 variant="ghost"
                 size="sm"
                 className="w-full justify-between text-left h-auto py-2 px-3"
-                disabled
+                onClick={() => window.open(resource.url, '_blank')}
               >
                 <span className="text-sm">{resource.name}</span>
                 <ExternalLink className="h-3 w-3 text-muted-foreground" />
               </Button>
-            )}
+            ))}
           </div>
         </CollapsibleContent>
       </Collapsible>
