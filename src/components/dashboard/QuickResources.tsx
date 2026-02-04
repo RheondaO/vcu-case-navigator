@@ -8,12 +8,12 @@ import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
 const resources = [
-  { name: 'VCU Scholarships Database', url: 'https://www.vcu.edu/scholarships' },
-  { name: 'Degree Requirements FAQ', url: 'https://www.vcu.edu/degree-faq' },
-  { name: 'Emergency Aid Application', url: 'https://www.vcu.edu/emergency-aid' },
-  { name: 'Payment Plan Options', url: 'https://www.vcu.edu/payment-plans' },
-  { name: 'Financial Aid Appeals', url: 'https://www.vcu.edu/aid-appeals' },
-  { name: 'Work-Study Programs', url: 'https://www.vcu.edu/work-study' },
+  { name: 'VCU Scholarships Database', url: 'https://vcu.academicworks.com/' },
+  { name: 'Degree Requirements FAQ', url: 'https://bulletin.vcu.edu/academic-regs/ugrad/ugrad-degree-reqs/' },
+  { name: 'Emergency Aid Application', url: 'https://advocacy.vcu.edu/resources/vcu-division-of-student-affairs-student-emergency-fund/' },
+  { name: 'Payment Plan Options', url: 'https://sfs.vcu.edu/billing-and-payments/installment-plan/' },
+  { name: 'Financial Aid Appeals', url: 'https://sfs.vcu.edu/financial-aid/keeping-your-aid/special-circumstances/' },
+  { name: 'Work-Study Programs', url: 'https://sfs.vcu.edu/financial-aid/types-of-aid/federal-work-study/' },
 ];
 
 export function QuickResources() {
