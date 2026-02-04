@@ -42,7 +42,7 @@ export function QuickResources() {
                 <span className="text-sm">{resource.name}</span>
                 <ExternalLink className="h-3 w-3 text-muted-foreground" />
               </Button>
-            ))}
+            )}
           </div>
         </CollapsibleContent>
       </Collapsible>
