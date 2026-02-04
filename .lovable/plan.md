@@ -1,6 +1,6 @@
 
 
-# SFMC Advisor Case Management Workspace
+# VCU SFMC Advisor Case Management Workspace
 A high-stakes financial case management tool for VCU institutional use, built as an interactive demo/prototype.
 
 ---
